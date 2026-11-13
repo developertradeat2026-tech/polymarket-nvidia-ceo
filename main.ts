@@ -25,7 +25,7 @@ const Z = [-1.644854, -0.67449, 0, 0.67449, 1.644854];
 /** Realized-volatility window, in minutes. */
 const WINDOW = 20;
 /** Sigma of the median market, in price units per sqrt-minute. */
-const BASE = 0.0003;
+const BASE = 0.0005;
 /** How hard the relative volatility stretches sigma. */
 const GAMMA = 0.75;
 /**
