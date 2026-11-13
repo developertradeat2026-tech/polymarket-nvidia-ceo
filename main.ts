@@ -28,7 +28,10 @@ const WINDOW = 20;
 const BASE = 0.0003;
 /** How hard the relative volatility stretches sigma. */
 const GAMMA = 0.75;
-/** Clamp on the relative factor, so one wild market cannot run away. */
+/**
+ * Clamp on the relative factor, so one wild market cannot run away and one
+ * dead-flat market does not collapse to a zero-width band.
+ */
 const REL_MIN = 0.05;
 const REL_MAX = 20;
 
